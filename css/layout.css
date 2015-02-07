@@ -53,6 +53,9 @@ body {
   color: #000;
   border-bottom: none;
 }
+.footer a:hover {
+  color: #aaa;
+}
 
 .subhead1, .bandsubhead1 {
   color: #cde2f4;
