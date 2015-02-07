@@ -1,0 +1,57 @@
+.row, .body, .container {
+width: 100%;
+margin-left: 0px;
+margin-right: 0px;
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol, .twelvecol {
+width: auto;
+float: none;
+margin-left: 0px;
+margin-right: 0px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+/* Type presets */
+
+body {
+font-size: 16px;
+line-height: 24px;
+}
+
+object {
+  display: none;
+}
+
+p {
+  margin-bottom: 12px;
+}
+.intro, .music, .footer {
+  width: auto;
+}
+.footer {
+  font-size: 14px;
+}
+.footer a {
+  text-decoration: none;
+}
+.header {
+  display: none;
+}
+.name {
+  padding-top: 20px;
+}
+#logo {
+  margin-bottom: 0;
+  margin-top: 6px;
+}
+.downloadbutton {
+  margin: 20px 20px 7px 0;
+  width: 100%;
+}
+.bandsubhead1 {
+  font-size: 18px;
+}

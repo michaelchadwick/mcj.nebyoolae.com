@@ -1,0 +1,122 @@
+/* Layout for desktop version */
+body {
+  background: #2a6982;
+  color: #fff;
+}
+.row {
+  margin-bottom: 15px;
+}
+.intro, .music, .footer {
+  padding: 20px;
+}
+.header {
+  background: #55a1c1;
+  border-bottom: 5px dashed #2a6982;
+  height: 30px;
+}
+.intro {
+  background: #000;
+}
+.intro img {  
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  float: left;
+  margin-right: 15px;
+}
+.intro h1 {
+  margin-top: 8px;
+}
+.intro h2 {
+  clear: left;
+}
+.music {
+  background: #000;
+  padding: 5px 20px 25px;    
+}
+.music img {
+  margin-top: 5px;
+}
+.music .name {
+  font-family: 'Sigmar One';
+  font-size: 27px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.footer {
+  border-top: 5px dashed #fff;
+  color: #efefef;
+  font-size: 20px;
+  padding: 20px;
+}
+.footer a {
+  color: #000;
+  border-bottom: none;
+}
+
+.subhead1, .bandsubhead1 {
+  color: #cde2f4;
+}
+.subhead2 {
+  color: #a5cceb;
+}
+.subhead3 {
+  color: #55a1c1;
+}
+.subhead4 {
+  color: #4a8ba5;
+}
+
+.downloadbutton {
+  background: #15b953 url(/images/bgButton.png);
+  border: 1px solid #000;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-bottom: 7px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.downloadbutton:hover {
+  background-position: 0px 160px;
+}
+
+.downloadbutton:active {
+  background-position: 0px 80px;
+}
+
+.downloadbutton a {
+  border-bottom: none;
+  color: #fff;
+  display: block;
+  padding: 10px;
+  text-shadow: 0 1px 0 #000;
+}
+
+.download {
+  background: url(/images/iconDownload.png) no-repeat;
+  border: none;
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+}
+
+/* Layout for mobile version */
+@media handheld, only screen and (max-width: 767px) {
+  .examplecontainer {
+    body {
+
+    }
+  }
+
+  /* Provide higher res assets for iPhone 4 */
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+  /* An example of how to override an image with one twice the size for iPhone 4. */
+  /* Specify the original pixel size with background-size.
+    .download {
+      background: url(../img/downarrow@2x.png) no-repeat;
+      background-size: 27px 28px;
+    }
+  */
+}
