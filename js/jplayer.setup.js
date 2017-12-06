@@ -1,4 +1,4 @@
-$(function (){
+$(function () {
   var mancavejamPlaylist = new jPlayerPlaylist({
     jPlayer: '#jquery_jplayer_4',
     cssSelectorAncestor: '#jp_container_4'
