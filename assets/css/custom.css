@@ -103,3 +103,14 @@ body {
   padding-bottom: 10px;
   padding-left: 40px;
 }
+
+/* jplayer playlist customizations */
+div.jp-audio {
+  width: auto;
+}
+div.jp-progress {
+  width: auto;
+}
+div.jp-type-playlist div.jp-playlist span.jp-free-media {
+  padding-left: 5px;
+}
