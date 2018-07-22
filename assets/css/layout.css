@@ -17,7 +17,7 @@ body {
 .intro {
   background: #000;
 }
-.intro img {  
+.intro img {
   border-radius: 0;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -32,7 +32,7 @@ body {
 }
 .music {
   background: #000;
-  padding: 5px 20px 25px;    
+  padding: 5px 20px 25px;
 }
 .music img {
   margin-top: 5px;
@@ -71,7 +71,7 @@ body {
 }
 
 .downloadbutton {
-  background: #15b953 url(/images/bgButton.png);
+  background: #15b953 url(/assets/images/bgButton.png);
   border: 1px solid #000;
   border-radius: 5px;
   -moz-border-radius: 5px;
@@ -98,7 +98,7 @@ body {
 }
 
 .download {
-  background: url(/images/iconDownload.png) no-repeat;
+  background: url(/assets/images/iconDownload.png) no-repeat;
   border: none;
   font-size: 20px;
   padding-bottom: 10px;
@@ -114,7 +114,7 @@ body {
   }
 
   /* Provide higher res assets for iPhone 4 */
-  @media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   /* An example of how to override an image with one twice the size for iPhone 4. */
   /* Specify the original pixel size with background-size.
     .download {
